@@ -1,0 +1,40 @@
+#background {
+  background-image: url("https://s2vesportsclub.com/wp-content/uploads/2019/01/league-of-legends.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+/* #background {
+  opacity: 0.2;
+  filter: blur(4px);
+  z-index:-1;
+} */
+
+
+#foreground {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  z-index: 2;
+  width: 90%;
+  margin: auto;
+}
+
+#header {
+  color: #eee;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  #header {
+    font-size: 3em;
+  }
+  #foreground p {
+    font-size: 1em;
+  }
+}

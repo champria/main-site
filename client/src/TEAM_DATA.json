@@ -1,0 +1,114 @@
+[
+  {
+    "id": "0",
+    "name": "Terror Dorms",
+    "members": [
+      {
+        "id": 0,
+        "username": "ahola12",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Terror Dorms",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "tornnei",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Terror Dorms",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "",
+    "game": "CS GO",
+    "region": "US",
+    "isLookingForMembers": true,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/G2_Esports.png",
+    "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "url": ":teamId",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Unicorns are real",
+    "members": [
+      {
+        "id": 0,
+        "username": "High_Scope",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "Revived Medic",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "Too good_runner",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "Ruin",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "College",
+    "game": "Rainbow Six: Seige",
+    "region": "CA",
+    "isLookingForMembers": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/G2_Esports.png",
+    "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "url": ":teamId",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+/* player styles */
+
+.background {
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-position: center;
+  background-size: cover;
+  opacity: .5;
+  z-index: 2;
+  height: 100px;
+  filter: blur(3px);
+  /* border-bottom: 1px solid #eee; */
+}
+
+.foreground{
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-45%, -70%);
+  width: 100%;
+}
+
+.foreground img {
+  width: 100%;
+}
+
+@media screen and (max-width:500px){
+.foreground img {
+  width: 60%;
+}
+
+}
+
+.username {
+  margin-left: -15px;
+  font-weight: bold;
+}
+
+.card {
+  /* background: #009598; */
+  padding: 10px;
+  /* border: none; */
+  color: #eee;
+}
+
+a {
+  transition: 500ms ease all;
+
+  /* color: #eee; */
+}
+
+a:hover {
+  /* color: #eee; */
+  text-decoration: none;
+}
+#player-box {
+  height: 65vh;
+  overflow-y: auto;
+  margin-bottom: 4%;
+}
+
+.player-container {
+  padding-bottom: 1.5em;
+}
+
+.player-card {
+  background-color: #53a09c;
+}
+
+.player-card a {
+  color: #eee;
+}
+
+/* Filter styles */
+
+#filteredGames {
+  height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#filteredGames a {
+  color: #eee;
+}
+
+.filter-bg{
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.filter-bg .form-control{
+  background-color: #393939;
+  border: none;
+  color: #eee;
+}
+
+.filter-bg .form-control:focus {
+  background-color: #393939;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+

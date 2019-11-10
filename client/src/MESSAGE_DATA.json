@@ -1,0 +1,21 @@
+[
+    {
+        "id" : "0",
+        "user" : "Justin_",
+        "message":"Hello, this is Justin",
+        "timestamp": "yesterday"
+    },
+    {
+        "id" : "1",
+        "user" : "not_Justin",
+        "message":"Hi there, I am not justin",
+        "timestamp": "2hrs ago"
+    },
+    {
+        "id" : "2",
+        "user" : "Justin_",
+        "message":"I know, this is weird...",
+        "timestamp": "just now"
+    }
+
+]

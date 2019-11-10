@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "username": "ahola12",
+    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "game": "CS GO",
+    "team": "Terror Dorms",
+    "region": "US",
+    "url": ":playerId"
+  },
+  {
+    "id": 2,
+    "username": "foresight22",
+    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "game": "CS GO",
+    "team": "",
+    "region": "CA",
+    "url": ":playerId"
+  },
+  {
+    "id": 3,
+    "username": "newUser12",
+    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "game": "",
+    "team": "",
+    "region": "",
+    "url": ":playerId"
+  },
+  {
+    "id": 4,
+    "username": "High_Scope",
+    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "game": "Rainbow Six: Siege",
+    "team": "Unicorns are real",
+    "region": "US",
+    "url": ":playerId"
+  }
+]

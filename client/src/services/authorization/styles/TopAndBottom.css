@@ -1,0 +1,12 @@
+.login-form, .register-form {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+}
+.login-container {
+    padding: 2%;
+}
+
+.register-container {
+    padding: 1%;
+}

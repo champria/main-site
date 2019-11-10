@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+body {
+  padding-top: 5%;
+  font-family: Roboto, sans-serif;
+  background-color: #393939;
+  color: #eee;
+}
+
+.jumbotron {
+  background-color: rgba(57, 57, 57, 0.6);
+}
+
+.button {
+  background-color: #53a09c;
+  color: #eee;
+}
+
+.button:hover {
+  background-color: #3f747a;
+}
+
