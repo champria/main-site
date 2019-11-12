@@ -1,35 +1,61 @@
 .chat-bg {
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     background-color: #191919;
+    margin: 20px;
 }
 
 #player-chat .my-4 {
     border-color: #eee;
 }
+#content-box {
+    border-right: #eee solid 1px;
+    height: 60vh;
+}
 
 .message-container {
     padding: 5px;
-    padding-top: 15px;
     border-radius: 5px;
     background-color: teal;
     margin: 5%;
     width: 50%;
     text-align: left;
+    line-height: .8em;
 }
 
-.message-container:nth-child(even){
+.message-sender{
     background-color:#eee;
     color: #191919;
     text-align: right;
     margin-left: 300px;
 }
 
-.message-user, .message-content, .message-timestamp {
-   
+.message-content {
+   line-height: normal;
 }
 
 .message-timestamp {
     font-size: .8em;
+    color:#999;
+    margin-bottom: none;
+}
+
+.list-group-item {
+    background-color: #191919;
+    color: #eee;
+    border: none;
+}
+
+.contact-container {
+    line-height: .8em;
+    cursor: pointer;
+}
+
+.contact-message {
+ font-size: .8em;
+}
+
+.contact-timestamp {
+    font-size: .6em;
     color:#999;
 }

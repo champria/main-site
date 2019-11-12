@@ -1,0 +1,27 @@
+[
+    {
+        "id" : "0",
+        "user" : "Justin_",
+        "message":"Hello, Caleb...",
+        "timestamp": "2hrs ago"
+    },
+    {
+        "id" : "1",
+        "user" : "Caleb",
+        "message":"Hi there, did you watch daredevil season 3?",
+        "timestamp": "2hrs ago"
+    },
+    {
+        "id" : "2",
+        "user" : "Justin_",
+        "message":"Of Course! How Could I not have?",
+        "timestamp": "2 minutes ago"
+    },
+    {
+        "id" : "3",
+        "user" : "Caleb",
+        "message":"It's the Best!",
+        "timestamp": "just now"
+    }
+
+]
