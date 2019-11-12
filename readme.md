@@ -48,13 +48,20 @@ the front end contains the routes to move around the site. Running off of react,
 
 There will be components that will take the endpoints of the backend that are connected to the db.
 
+To view the fron end:
+1. clone repo
+2. cd into client folder
+3. run npm install
+4. run npm start
+and you should be in!
+
 ## The Back
 
 The back end should have 5 main clusters:
 
 1. Player Athuentication
 2. Team Authenitcation
-3. Chat(onoe to one and group)
+3. Chat(one to one and group)
 4. Calendar/Scheduling system
 5. file management system
 
