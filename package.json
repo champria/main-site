@@ -1,0 +1,20 @@
+{
+  "name": "main-site",
+  "version": "1.0.0",
+  "description": "1. About\r 2. File Stucture\r 3. The Front\r 4. The Back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/champria/main-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/champria/main-site/issues"
+  },
+  "homepage": "https://github.com/champria/main-site#readme"
+}

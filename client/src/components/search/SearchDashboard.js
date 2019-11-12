@@ -50,10 +50,10 @@ export default class SearchDashboard extends Component {
       <div className="container-fluid">
         <br />
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2">
             <Filter FilterData={PlayerData} filterBy={this.filterBy} />
           </div>
-          <div className="col-10" id="player-box">
+          <div className="col-md-10 col-sm-12" id="player-box">
             <Players
               PlayerData={
                 !this.state.data.length ? PlayerData : this.state.data

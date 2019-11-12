@@ -14,7 +14,6 @@
   z-index:-1;
 } */
 
-
 #foreground {
   position: absolute;
   top: 55%;
@@ -35,6 +34,6 @@
     font-size: 3em;
   }
   #foreground p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
