@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+
 import Contact from "./Contact";
 import Messages from "./Messages";
 import SendMessage from "./SendMessage";
 import AddContact from "./AddContact";
+
 import "./styles/PlayerChat.css";
 
 import messageData from "../../../MESSAGE_DATA.json";
@@ -15,11 +17,19 @@ class PlayerChat extends Component {
   state = {
     messages: [],
     userTwo: [],
-    conversationSelected: false
+    conversationSelected: false,
+    data:[]
   };
 
   messageSelector(data) {
     //    todo: get his functional...
+    console.log(data);
+    console.log("doot",this); //Contact component
+    console.log(this.contact);
+    this.setState({
+        data: data
+    })
+    
   }
 
   render() {
