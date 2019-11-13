@@ -1,9 +1,26 @@
-import React from "react";
+import React, {Component} from "react";
 
-export default function Messages(props) {
+export default class Messages extends Component {
+constructor(props){
+  super(props)
+  this.state={
+    data:Array
+  }
+}
+
+
+componentDidMount(){
+  console.log(this.props.messages)
+}
+
+render(){
+
+
   return (
     <div>
-      {props.messages.map(m => {
+      { !this.props 
+      ? "Loading"
+      :this.props.messages.map(m => {
         return (
           <div
             key={m.id}
@@ -15,6 +32,8 @@ export default function Messages(props) {
           </div>
         );
       })}
+      Messages
     </div>
   );
+}
 }

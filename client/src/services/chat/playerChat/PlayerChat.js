@@ -14,25 +14,34 @@ const userOne = "Justin_";
 const userTwo = "not_justin";
 
 class PlayerChat extends Component {
-  state = {
+
+  constructor(props){
+    super(props)
+this.state = {
+  
     messages: [],
     userTwo: [],
     conversationSelected: false,
-    data:[]
-  };
+    messageArr:[]
+}
+this.messageSelector = this.messageSelector.bind(this)
 
-  messageSelector(data) {
-    //    todo: get his functional...
-    console.log(data);
-    console.log("doot",this); //Contact component
-    console.log(this.contact);
-    this.setState({
-        data: data
-    })
-    
   }
 
+
+
+messageSelector(data) {
+console.log(data)
+ this.setState({
+   messageArr: data
+ })
+
+  }
+
+
+
   render() {
+    
     return (
       <div className="container" id="player-chat">
         <div className="chat-bg">
@@ -65,7 +74,7 @@ class PlayerChat extends Component {
                 <i className="fas fa-user-circle"></i> {userTwo}
               </h3>
               <hr className="my-4" />
-              <Messages messages={messageData} />
+              {Array.isArray(this.state.messageArr) && this.state.messageArr.length ? <Messages messages={this.state.messageArr} /> : "Loading..."}
             </div>
           </div>
           <div className="row">
