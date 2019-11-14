@@ -51,13 +51,14 @@ export default class SearchDashboard extends Component {
         <br />
         <div className="row">
           <div className="col-md-2">
-            <Filter FilterData={PlayerData} filterBy={this.filterBy} />
+            <Filter FilterData={PlayerData} filterBy={this.filterBy} passedObject={this.props.passedObject}/>
           </div>
           <div className="col-md-10 col-sm-12" id="player-box">
             <Players
               PlayerData={
                 !this.state.data.length ? PlayerData : this.state.data
               }
+              passedObject={this.props.passedObject}
             />
           </div>
         </div>

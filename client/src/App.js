@@ -19,9 +19,39 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 class App extends Component{
+constructor(props){
+  super(props)
+  this.state={
+           banner:"",
+           game:"",
+           img:"",
+           name:"",
+           region:"",
+           team:"" ,
+           tagline:"",
+           availability:"",
+           videoUrl:"",
+           stats:{},
+           about:""                      
+  }
+  this.passedObject = this.passedObject.bind(this)
+}
+
 
   passedObject(data){
-    console.log(data)
+    this.setState({
+      banner: data.banner,
+      game: data.game,
+      img: data.img,
+      name: data.name,
+      region: data.region,
+      team: data.team,
+      tagline:data.tagline,
+      availability:data.availability,
+      videoUrl:data.videoUrl,
+      stats:data.stats,
+      about:data.about
+    })
   }
 
   render(){
@@ -33,9 +63,10 @@ class App extends Component{
             <Route exact path="/" component={MainSplash} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
-            <Route exact path="/player/search" component={SearchDashboard} />
+            <Route exact path="/player/search" render={()=> <SearchDashboard passedObject={this.passedObject}/>} />
             <Route exact path="/team/search" component={TeamDashboard} />
-            <Route exact path="/player/:playerId/page" component={PlayerAccount} />
+            <Route exact path="/team/search" render={()=> <TeamDashboard passedObject={this.passedObject}/>} />
+            <Route exact path="/player/:playerId/page" render={()=> <PlayerAccount data={this.state}/>} />
             <Route exact path="/team/:teamId/page" component={TeamAccount} />
             <Route exact path="/team/:teamId/settings" component={TeamSettings} />
             <Route exact path="/player/:playerId/settings" component={PlayerSettings} />

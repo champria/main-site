@@ -8,6 +8,7 @@
   font-size: 150px;
 }
 
+
 .player-banner,
 .player-second-row {
   margin: 3%;
@@ -17,8 +18,8 @@
 .player-banner {
   position: absolute;
   top: 35%;
-  left: 48%;
-  transform: translate(-52%, -75%);
+  left: 50%;
+  transform: translate(-50%, -65%);
   width: 85%;
 }
 
@@ -39,7 +40,7 @@ iframe {
 }
 
 .banner-background {
-  background-image: url("https://previews.123rf.com/images/welcomia/welcomia1709/welcomia170900094/86609384-magic-roulette-game-banner-concept-3d-rendered-illustration-roulette-wheel-and-casino-chips-.jpg");
+  /* background-image: url("https://previews.123rf.com/images/welcomia/welcomia1709/welcomia170900094/86609384-magic-roulette-game-banner-concept-3d-rendered-illustration-roulette-wheel-and-casino-chips-.jpg"); */
   background-position: center;
   background-size: cover;
   height: 40vh;
@@ -48,8 +49,22 @@ iframe {
   filter: blur(3px);
 }
 
+.player-image{
+  width: 70%;
+}
+
 @media screen and (min-width: 1400px) {
   .player-banner {
     width: 75%;
+  }
+}
+
+
+@media only screen and (max-width:770px){
+  .player-image{
+    width: 30%;
+  }
+  .player-second-row{
+    margin-top: 10%;
   }
 }

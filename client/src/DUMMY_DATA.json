@@ -7,7 +7,17 @@
     "game": "CS GO",
     "team": "Terror Dorms",
     "region": "US",
-    "url": ":playerId"
+    "url": ":playerId",
+    "tagline":"ready up!",
+    "availability":"evenings",
+    "videoUrl": "QbqaALkLF1U",
+    "stats":{
+      "role": "DPS",
+      "kd": "1.1",
+      "primary": "mp5",
+      "hoursPlayed": "150"
+    },
+    "about":"Been playing for 3 years. I play in my spare time while in college. Go Terror Dorms!"
   },
   {
     "id": 2,
@@ -17,7 +27,17 @@
     "game": "CS GO",
     "team": "",
     "region": "CA",
-    "url": ":playerId"
+    "url": ":playerId",
+    "tagline":"future proof",
+    "availability":"afternoons, weekends",
+    "videoUrl": "JmoH-7BaE1s",
+    "stats":{
+      "role": "support",
+      "kd": ".95",
+      "primary": "lmg",
+      "hoursPlayed": "111"
+    },
+    "about":"Looking for a team, hit me up!"
   },
   {
     "id": 3,
@@ -27,7 +47,17 @@
     "game": "",
     "team": "",
     "region": "",
-    "url": ":playerId"
+    "url": ":playerId",
+    "tagline":"",
+    "availability":"evenings",
+    "videoUrl": "",
+    "stats":{
+      "role": "",
+      "kd": "",
+      "primary": "",
+      "hoursPlayed": ""
+    },
+    "about":"Howdy! I'm new..."
   },
   {
     "id": 4,
@@ -37,6 +67,16 @@
     "game": "Rainbow Six: Siege",
     "team": "Unicorns are real",
     "region": "US",
-    "url": ":playerId"
+    "url": ":playerId",
+    "tagline":"How high?",
+    "availability":"mornings",
+    "videoUrl": "s4p50QVzQKg",
+    "stats":{
+      "role": "support",
+      "kd": "1.0",
+      "primary": "any scoped rifle",
+      "hoursPlayed": "175"
+    },
+    "about":"Game in the am, work in the pm."
   }
 ]

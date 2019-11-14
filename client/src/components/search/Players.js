@@ -18,6 +18,12 @@ export default class Players extends Component {
                 team={data.team}
                 url={data.url}
                 banner={data.banner}
+                tagline={data.tagline}
+                availability={data.availability}
+                videoUrl={data.videoUrl}
+                stats={data.stats}
+                about={data.about}
+                passedObject={this.props.passedObject}
               />
               
             );

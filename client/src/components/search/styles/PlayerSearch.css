@@ -10,7 +10,6 @@
   z-index: 1;
   height: 100px;
   filter: blur(3px);
-  /* border-bottom: 1px solid #eee; */
 }
 
 .foreground {
@@ -67,7 +66,7 @@ a:hover {
   height: 65vh;
   overflow-y: auto;
   margin-bottom: 4%;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .player-container {

@@ -79,7 +79,7 @@ export default class Filter extends Component {
             />
           </div>
 
-          <FilterBox names={this.state.arr} />
+          <FilterBox names={this.state.arr} passedObject={this.props.passedObject}/>
         </form>
         <form className="form-group" onSubmit={this.submitHandler}>
           <div className="text-left">

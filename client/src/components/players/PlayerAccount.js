@@ -7,14 +7,22 @@ import "./styles/PlayerAccount.css";
 
 export default class PlayerAccount extends Component {
   render() {
+    console.log(this.props.data.banner)
     return (
-      <div className="container" id="player-account">
-        <div className="banner-background"></div>
+      <div 
+      className="container" id="player-account">
+        <div 
+        className="banner-background" 
+        style={{backgroundImage: `url(${this.props.data.banner})`}}></div>
         <div className="player-banner">
           
         <div className="row h-100">
-          <PlayerInfo/>
-          <div className="col-6">
+          <PlayerInfo
+          name={this.props.data.name}
+          img={this.props.data.img}
+          tagline={this.props.data.tagline}
+          />
+          <div className="col-md-6 col-sm-12">
             <div className="row h-100">
               <div className="col-6 my-auto">
                 <button className="btn button">Invite</button>
@@ -30,34 +38,37 @@ export default class PlayerAccount extends Component {
         </div>
         </div>
         <div className="row player-second-row">
-        <div className="col-3 text-left">
+        <div className="col-md-3 col-sm-12 text-left">
         <h5>Info</h5>
           
           <ul className="list-unstyled">
             <li>
-              Game: 
+              Game: {this.props.data.game}
             </li>
             <li>
-              Region: 
+              Region: {this.props.data.region}
             </li>
+           {this.props.data.team 
+  && <li>Team: {this.props.data.team}</li>
+           }
             <li>
-              Team:
-            </li>
-            <li>
-              Availability:
+              Availability: {this.props.data.availability}
             </li>
           </ul>
           <hr className="my-4"/>
           <h5>About</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>{this.props.data.about}</p>
         </div>
-        <div className="col-9">
+        <div className="col-md-9 col-sm-12">
           <div className="row">
-            <div className="col-8">
-              <PlayerVideo/>
+            <div className="col-md-8 col-sm-12">
+              <PlayerVideo videoUrl={this.props.data.videoUrl}/>
             </div>
-            <div className="col-4">
-              <PlayerStats/>
+            <div className="col-md-4 col-sm-12">
+              <PlayerStats 
+              stats={this.props.data.stats}
+              game={this.props.data.game}
+              />
             </div>
           </div>
         </div>
