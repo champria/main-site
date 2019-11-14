@@ -8,6 +8,7 @@ export default class Players extends Component {
         <div className="row">
           {this.props.PlayerData.map(data => {
             return (
+            
               <PlayerCard
                 key={data.id}
                 img={data.img}
@@ -18,6 +19,7 @@ export default class Players extends Component {
                 url={data.url}
                 banner={data.banner}
               />
+              
             );
           })}
         </div>

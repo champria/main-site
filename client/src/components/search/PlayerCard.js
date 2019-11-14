@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function PlayerCard(props) {
   return (
-    <div className="col-md-3 col-sm-12 container player-container">
+    <div className="col-md-3 col-sm-12 container player-container" key={props.id} onClick={()=>console.log("clicked", props)}>
       <div key={props.id} className="player-card card text-left">
         <Link to={`/player/${props.url}/page`}>
           <div className="background" style={{ backgroundImage: `url(${props.banner})` }}></div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 // Routes
 import Navbar from "./components/topandbottom/Navbar";
@@ -18,28 +18,36 @@ import PlayerChat from "./services/chat/playerChat/PlayerChat";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={MainSplash} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/player/search" component={SearchDashboard} />
-          <Route exact path="/team/search" component={TeamDashboard} />
-          <Route exact path="/player/:playerId/page" component={PlayerAccount} />
-          <Route exact path="/team/:teamId/page" component={TeamAccount} />
-          <Route exact path="/team/:teamId/settings" component={TeamSettings} />
-          <Route exact path="/player/:playerId/settings" component={PlayerSettings} />
-          <Route exact path="/player/:playerId/chat" component={PlayerChat} />
-          <Route exact path="/team/:teamId/chat" component={TeamChat} />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
-  );
+class App extends Component{
+
+  passedObject(data){
+    console.log(data)
+  }
+
+  render(){
+    return (
+      <Router>
+        <div className="App">
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={MainSplash} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
+            <Route exact path="/player/search" component={SearchDashboard} />
+            <Route exact path="/team/search" component={TeamDashboard} />
+            <Route exact path="/player/:playerId/page" component={PlayerAccount} />
+            <Route exact path="/team/:teamId/page" component={TeamAccount} />
+            <Route exact path="/team/:teamId/settings" component={TeamSettings} />
+            <Route exact path="/player/:playerId/settings" component={PlayerSettings} />
+            <Route exact path="/player/:playerId/chat" component={PlayerChat} />
+            <Route exact path="/team/:teamId/chat" component={TeamChat} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
+  
 }
 
 export default App;
