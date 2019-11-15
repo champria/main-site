@@ -7,7 +7,6 @@ import "./styles/PlayerAccount.css";
 
 export default class PlayerAccount extends Component {
   render() {
-    console.log(this.props.data.banner)
     return (
       <div 
       className="container" id="player-account">

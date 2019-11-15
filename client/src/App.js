@@ -75,7 +75,6 @@ constructor(props){
   }
 
   passedTeamObject(data){
-    console.log(data)
     this.setState({
       team:{
         name:data.name,

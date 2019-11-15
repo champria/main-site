@@ -1,13 +1,14 @@
-import React, { Component,Fragment } from "react";
+import React, { Fragment } from "react";
 import {Link} from "react-router-dom"
 
-export default class TeamInfo extends Component {
-  render() {
+export default function TeamInfo(props){
     return (
       <Fragment>
       <div className="row">
         <div className="col">
-          <i class="fas fa-user-circle" style={{ fontSize: "150px" }}></i>
+          {props.img 
+          ? <img src={props.img} alt={props.name} /> 
+          : <i class="fas fa-user-circle" style={{ fontSize: "150px" }}></i>}
           <br/>
           <br/>
           <div className="row">
@@ -17,11 +18,11 @@ export default class TeamInfo extends Component {
           </div>
         </div>
         <div className="col">
-          <h3>Team Name</h3>
+    <h3 className="display-4">{props.name}</h3>
           <h4>Captain Name</h4>
-          <p>Game:</p>
-          <p>Organization:</p>
-          <p>Looking for new Members:</p>
+<p>Game: {props.game}</p>
+<p>Organization:{props.organization ? props.organization : "None"}</p>
+<p>Looking for new Members: {props.lookingForNewMembers ? "Yes" : "No" }</p>
           <div className="row">
             <div className="col-6">
               <button className="btn btn-primary">message</button>
@@ -34,9 +35,9 @@ export default class TeamInfo extends Component {
       </div>
       <div className="row">
         <p>Bio:</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>{props.bio}</p>
       </div>
       </Fragment>
     );
-  }
+  
 }
