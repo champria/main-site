@@ -62,13 +62,18 @@ export class TeamDashboard extends Component {
         <br />
         <div className="row">
           <div className="col-2">
-            <TeamFilter teamFilterData={TeamData} filterBy={this.filterBy} />
+            <TeamFilter 
+            teamFilterData={TeamData} 
+            filterBy={this.filterBy} 
+            passedTeamObject={this.props.passedTeamObject}
+            />
           </div>
           <div className="col-10">
             <Teams
               teamData={
                 !this.state.teamData.length ? TeamData : this.state.teamData
               }
+              passedTeamObject={this.props.passedTeamObject}
             />
           </div>
         </div>

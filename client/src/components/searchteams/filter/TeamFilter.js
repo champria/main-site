@@ -29,10 +29,10 @@ export default class TeamFilter extends Component {
                    value={this.state.value}
                    onChange={this.changeHandler}
                    /> 
-                <TeamFilterBox names={this.state.arr}/>
+                <TeamFilterBox names={this.state.arr} passedTeamObject={this.props.passedTeamObject}/>
                 </form>
                 
-                <TeamSelectBox teamFilterData={this.props.teamFilterData} filterBy={this.props.filterBy}/>
+                <TeamSelectBox teamFilterData={this.props.teamFilterData} filterBy={this.props.filterBy} />
             </div>
         );
     }

@@ -21,11 +21,11 @@ constructor(props){
               <div className="col-5">
                 <img
                   src={this.props.img}
-                  alt={"profile image for " + this.props.name}
+                  alt={"profile image for " + this.props.username}
                 />
               </div>
               <div className="col-7 my-auto">
-                <h5 className="username">{this.props.name}</h5>
+                <h5 className="username">{this.props.username}</h5>
               </div>
             </div>
   

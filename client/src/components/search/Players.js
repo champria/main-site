@@ -12,7 +12,7 @@ export default class Players extends Component {
               <PlayerCard
                 key={data.id}
                 img={data.img}
-                name={data.username}
+                username={data.username}
                 game={data.game}
                 region={data.region}
                 team={data.team}

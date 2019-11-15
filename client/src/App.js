@@ -22,35 +22,74 @@ class App extends Component{
 constructor(props){
   super(props)
   this.state={
-           banner:"",
-           game:"",
-           img:"",
-           name:"",
-           region:"",
-           team:"" ,
-           tagline:"",
-           availability:"",
-           videoUrl:"",
-           stats:{},
-           about:""                      
+    player:{
+      banner:"",
+      game:"",
+      img:"",
+      name:"",
+      region:"",
+      team:"" ,
+      tagline:"",
+      availability:"",
+      videoUrl:"",
+      stats:{},
+      about:""
+    },
+    team:{
+      name:"",
+      members:[],
+      bio:"",
+      organization:"",
+      game:"",
+      region:"",
+      isLookingForMembers:false,
+      image:"",
+      banner:"",
+      url:"",
+      files:[]
+    }
+                                 
   }
   this.passedObject = this.passedObject.bind(this)
+  this.passedTeamObject = this.passedTeamObject.bind(this)
 }
 
 
   passedObject(data){
     this.setState({
-      banner: data.banner,
-      game: data.game,
-      img: data.img,
-      name: data.name,
-      region: data.region,
-      team: data.team,
-      tagline:data.tagline,
-      availability:data.availability,
-      videoUrl:data.videoUrl,
-      stats:data.stats,
-      about:data.about
+      player:{
+        banner: data.banner,
+        game: data.game,
+        img: data.img,
+        name: data.username,
+        region: data.region,
+        team: data.team,
+        tagline:data.tagline,
+        availability:data.availability,
+        videoUrl:data.videoUrl,
+        stats:data.stats,
+        about:data.about
+      }
+      
+    })
+  }
+
+  passedTeamObject(data){
+    console.log(data)
+    this.setState({
+      team:{
+        name:data.name,
+      members:data.members,
+      bio:data.bio,
+      organization:data.organization,
+      game:data.game,
+      region:data.region,
+      isLookingForMembers:data.isLookingForMembers,
+      image:data.image,
+      banner:data.banner,
+      url:data.url,
+      files:data.files
+      }
     })
   }
 
@@ -64,10 +103,9 @@ constructor(props){
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/player/search" render={()=> <SearchDashboard passedObject={this.passedObject}/>} />
-            <Route exact path="/team/search" component={TeamDashboard} />
-            <Route exact path="/team/search" render={()=> <TeamDashboard passedObject={this.passedObject}/>} />
-            <Route exact path="/player/:playerId/page" render={()=> <PlayerAccount data={this.state}/>} />
-            <Route exact path="/team/:teamId/page" component={TeamAccount} />
+            <Route exact path="/team/search" render={()=> <TeamDashboard passedTeamObject={this.passedTeamObject}/>} />
+            <Route exact path="/player/:playerId/page" render={()=> <PlayerAccount data={this.state.player}/>} />
+            <Route exact path="/team/:teamId/page" render={()=> <TeamAccount data={this.state.team}/>} />
             <Route exact path="/team/:teamId/settings" component={TeamSettings} />
             <Route exact path="/player/:playerId/settings" component={PlayerSettings} />
             <Route exact path="/player/:playerId/chat" component={PlayerChat} />

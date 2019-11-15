@@ -19,6 +19,9 @@ export default class Teams extends Component {
                 image={data.image}
                 banner={data.banner}
                 organization={data.organization}
+                members={data.members}
+                files={data.files}
+                passedTeamObject={this.props.passedTeamObject}
               />
             );
           })}
