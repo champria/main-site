@@ -1,3 +1,28 @@
-.card {
-  color: #000;
+#teamPage{
+  margin-top: 2%;
+}
+
+#teamPage img{
+  width: 70%;
+}
+
+#teamPage .card {
+background-color: #53a09c;
+}
+
+.team-banner{
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  margin: 3%;
+  opacity: .5;
+  filter: blur(3px);
+}
+
+.team-banner-foreground{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 80%;
 }

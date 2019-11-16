@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import TeamInfo from "./TeamInfo";
+import TeamBanner from "./TeamBanner";
 import TeamMembers from "./TeamMembers";
 import Calendar from "./Calendar";
 import TeamFeed from "./TeamFeed";
@@ -23,41 +23,40 @@ findRole(data){
     return member.role === "captain"
   })
   this.setState({
-    // todo: fix this!!
-    captain: member
+    captain:member[0]["username"]
   })
 }
 
-componentDidMount(){
-  this.findRole(this.props.data.members)
+componentDidMount(){ 
+// this.findRole(this.props.data.members) 
 }
 
   render() {
     return (
-      <div className="container text-left">
-        <div className="row">
-          <div className="col-4">
-            <TeamInfo 
+      <div className="container text-left" id="teamPage">
+        <div className="team-banner" style={{backgroundImage: `url(${this.props.data.banner})` }}></div>
+        <div className="team-banner-foreground">
+        <div className="row h-100">
+            <TeamBanner
             img={this.props.data.image}
             name={this.props.data.name}
-            game={this.props.data.game}
-            organization={this.props.data.organization}
-            isLookingForMembers={this.props.data.isLookingForMembers}
-            bio={this.props.data.bio}
             />
+        </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            Bio:
           </div>
-          <div className="col-8">
-            <TeamMembers 
-            members={this.props.data.members}
-            />
+          <div className="col">
+          Teams
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <Calendar />
+            Info
           </div>
           <div className="col">
-            <TeamFeed files={this.props.data.files}/>
+            file system
           </div>
         </div>
       </div>

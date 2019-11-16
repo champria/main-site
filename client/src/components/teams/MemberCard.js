@@ -1,29 +1,27 @@
 import React from "react";
 
-export default function MemberCard() {
+export default function MemberCard(props) {
+  
   return (
-    <div className="col-4">
+    <div className="col-4" key={props.data.id}>
       <div className="card text-left">
         <div className="row">
           <div className="col-4">
-            <i class="fas fa-user-circle"></i>
+            {props.data.img 
+            ? <img src={props.data.img} alt={props.data.username}/>  
+            :<i class="fas fa-user-circle"></i>}
           </div>
           <div className="col-8">
-            <p>Member Name</p>
+  <p>{props.data.username}</p>
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <p>Role: String</p>
-            <p>Misc:</p>
+  <p>Role: {props.data.role}</p>
           </div>
+          
         </div>
-        <div className="row">
-          <div className="col-6"></div>
-          <div className="col-6">
-            <button className="btn btn-warning">Edit</button>
-          </div>
-        </div>
+       
       </div>
     </div>
   );
