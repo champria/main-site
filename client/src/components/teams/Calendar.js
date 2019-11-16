@@ -4,7 +4,9 @@ export default class Calendar extends Component {
   render() {
     return (
       <div>
-        <i class="fas fa-calendar-alt" style={{ fontSize: "300px" }}></i>
+        <h3>Schedule:</h3>
+        <hr className="my-4"/>
+        <i class="fas fa-calendar-alt" style={{ fontSize: "250px" }}></i>
       </div>
     );
   }

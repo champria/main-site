@@ -3,12 +3,12 @@ import React from "react";
 export default function MemberCard(props) {
   
   return (
-    <div className="col-4" key={props.data.id}>
+    <div className="col-md-4 col-sm-12" key={props.data.id}>
       <div className="card text-left">
         <div className="row">
           <div className="col-4">
             {props.data.img 
-            ? <img src={props.data.img} alt={props.data.username}/>  
+            ? <img src={props.data.img} alt={props.data.username} className="member-image"/>  
             :<i class="fas fa-user-circle"></i>}
           </div>
           <div className="col-8">

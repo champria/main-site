@@ -7,8 +7,8 @@ export default function TeamBanner(props){
       <div className="row team-info h-100">
         <div className="col-md-8">
           <div className="row">
-            <div className="col-md-4">
-              <img src={props.img} alt={props.name}/>
+            <div className="col-md-4 ">
+              <img src={props.img} alt={props.name} />
             </div>
             <div className="col-md-8">
               <h3 className="display-3">{props.name}</h3>

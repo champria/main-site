@@ -24,5 +24,33 @@ background-color: #53a09c;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -60%);
-  width: 80%;
+  width: 75%;
+}
+
+.team-section {
+  margin:3%;
+  background-color: #191919;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.my-4{
+  border-color: #eee;
+}
+
+#teamPage img.member-image{
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+  .team-section{
+    margin: 5%;
+  }
+  .team-section h3 {
+    margin-top: 5%;
+  }
+ 
+  #teamPage img {
+    width: 30%;
+  }
 }

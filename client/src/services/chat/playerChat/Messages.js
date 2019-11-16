@@ -21,7 +21,6 @@ export default function Messages(props) {
           </div>
         );
       })}
-      Messages
     </div>
   );
 }

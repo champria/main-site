@@ -46,7 +46,8 @@ constructor(props){
       image:"",
       banner:"",
       url:"",
-      files:[]
+      files:[],
+      videoUrl:""
     }
                                  
   }
@@ -87,7 +88,8 @@ constructor(props){
       image:data.image,
       banner:data.banner,
       url:data.url,
-      files:data.files
+      files:data.files,
+      videoUrl:data.videoUrl
       }
     })
   }
