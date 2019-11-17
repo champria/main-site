@@ -15,21 +15,19 @@ this.props.passedTeamObject(this.props)
   
 render(){
   return (
-    <div className="col-3 container">
+    <div className="col-md-3 col-sm-12 container">
       <div key={this.props.id} className="card text-left" onClick={this.handleClick}>
         <Link to={`/team/${this.props.url}/page`}>
+          <div className="background" style={{ backgroundImage: `url(${this.props.banner})` }}></div>
           <div
-            className="row"
-            style={{ backgroundImage: `url(${this.props.banner})` }}
-          >
-            <div className="col-sm-5">
+            className="row foreground">
+            <div className="col-4 team-image">
               <img
                 src={this.props.image}
                 alt={"profile image for " + this.props.name}
-                className="img-fluid"
               />
             </div>
-            <div className="col-sm-7 my-auto">
+            <div className="col-8 my-auto">
               <h5 className="username">{this.props.name}</h5>
             </div>
           </div>

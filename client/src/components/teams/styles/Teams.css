@@ -53,4 +53,8 @@ background-color: #53a09c;
   #teamPage img {
     width: 30%;
   }
+  .team-banner{
+    height: 50vh;
+    margin-bottom: 15%;
+  }
 }

@@ -1,0 +1,33 @@
+.card {
+    background-color: #53a09c;
+}
+
+a {
+    color: #eee;
+}
+
+a:hover{
+    color: #eee;
+}
+
+.team-search{
+    margin-top: 6%;
+}
+
+.team-search .card {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px){
+    .foreground .team-image {
+        width: 50%;
+    }
+}
+
+
+#teamBox{
+    height: 65vh;
+  overflow-y: auto;
+  margin-bottom: 4%;
+  margin-top: 1%;
+}

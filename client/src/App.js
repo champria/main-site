@@ -10,10 +10,11 @@ import TeamAccount from "./components/teams/TeamAccount";
 import MainSplash from "./components/splash/MainSplash";
 import Login from "./services/authorization/Login";
 import Register from "./services/authorization/Register";
-import PlayerSettings from "./components/Settings/PlayerSettings";
 import TeamSettings from "./components/Settings/TeamSettings";
 import TeamChat from "./services/chat/teamChat/TeamChat";
 import PlayerChat from "./services/chat/playerChat/PlayerChat";
+
+import Settings from './components/Settings/Settings'
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
@@ -108,9 +109,9 @@ constructor(props){
             <Route exact path="/player/:playerId/page" render={()=> <PlayerAccount data={this.state.player}/>} />
             <Route exact path="/team/:teamId/page" render={()=> <TeamAccount data={this.state.team}/>} />
             <Route exact path="/team/:teamId/settings" component={TeamSettings} />
-            <Route exact path="/player/:playerId/settings" component={PlayerSettings} />
             <Route exact path="/player/:playerId/chat" component={PlayerChat} />
             <Route exact path="/team/:teamId/chat" component={TeamChat} />
+            <Route exact path="/player/:playerId/settings" component={Settings}/>
           </Switch>
           <Footer />
         </div>

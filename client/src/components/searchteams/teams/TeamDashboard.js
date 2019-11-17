@@ -61,14 +61,14 @@ export class TeamDashboard extends Component {
       <div className="container-fluid">
         <br />
         <div className="row">
-          <div className="col-2">
+          <div className="col-md-2  d-none d-sm-block">
             <TeamFilter 
             teamFilterData={TeamData} 
             filterBy={this.filterBy} 
             passedTeamObject={this.props.passedTeamObject}
             />
           </div>
-          <div className="col-10">
+          <div className="col-md-10 col-sm-12" id="teamBox">
             <Teams
               teamData={
                 !this.state.teamData.length ? TeamData : this.state.teamData

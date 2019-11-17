@@ -3,7 +3,7 @@ import PlayerCard from "./PlayerCard";
 export default class Players extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid player-search">
         <h3 className="display-4">Players</h3>
         <div className="row">
           {this.props.PlayerData.map(data => {

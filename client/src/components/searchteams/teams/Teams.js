@@ -4,8 +4,8 @@ import TeamCard from "./TeamCard";
 export default class Teams extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <h3>Teams</h3>
+      <div className="container-fluid team-search">
+        <h3 className="display-4">Teams</h3>
         <div className="row">
           {this.props.teamData.map(data => {
             return (
