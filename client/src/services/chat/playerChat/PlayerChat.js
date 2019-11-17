@@ -76,7 +76,7 @@ messageSelector(data) {
               </ul>
             </div>
            
-            <div className="col-md-9 col-sm-12">
+            <div className="col-md-9 col-sm-12 chat-box">
               {/* check to see if this.state has any elements inside */}
               {Array.isArray(this.state.messageArr) && this.state.messageArr.length 
               // if it does, pass MessageArr and userTwo through the Message Component and render them

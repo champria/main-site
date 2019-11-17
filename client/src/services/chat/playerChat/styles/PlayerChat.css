@@ -13,6 +13,20 @@
   height: 60vh;
 }
 
+/* #fixed-title{
+  position: fixed;
+  top: 15%;
+  z-index: 2;
+  background-color: #191919;
+  width: 57%;
+  border-bottom: 1px solid #eee;
+} */
+
+.chat-box {
+  height: 50vh;
+  overflow: auto;
+}
+
 .message-container {
   padding: 5px;
   border-radius: 5px;

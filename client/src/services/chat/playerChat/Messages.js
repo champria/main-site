@@ -3,7 +3,7 @@ import React from "react";
 export default function Messages(props) {
   return (
     <div>
-      <h3 className="text-left">
+      <h3 className="text-left" id="fixed-title">
                 <i className="fas fa-user-circle"></i> {props.user}
               </h3>
               <hr className="my-4" />

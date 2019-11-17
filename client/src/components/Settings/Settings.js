@@ -27,11 +27,11 @@ console.log(changes)
             <Router>
             <div className="container-fluid settings">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 d-none d-md-block">
                         
                         <Selector/>
                     </div>
-                    <div className="col-md-9 text-left panel">
+                    <div className="col-md-9 col-sm-12 text-left panel">
                    
                 <Switch>
                     <Route exact path="/player/:playerId/settings/banner" component={Banner}/>

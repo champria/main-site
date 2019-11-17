@@ -58,7 +58,7 @@ class Stats extends Component {
                    <div className="form-group">
                        <input 
                        className="form-control" 
-                       placeholder="kd in video" 
+                       placeholder="k/d in video" 
                        value={this.state.stats.kd} 
                        onChange={this.handleChange} 
                        name="stats.kd"
