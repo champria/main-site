@@ -22,11 +22,11 @@ export default function TeamBanner(props){
         <div className="col-md-4 col-sm-12">
           <div className="row h-100 text-center">
             <div className="col-6 my-auto">
-              <button className="btn button">Scrim</button>
+              <button className="btn button" disabled>Scrim</button>
             </div>
             <div className="col-6 my-auto">
               <Link>
-              <button className="btn button">message</button>
+              <button className="btn button" disabled>message</button>
               </Link>
               
             </div>

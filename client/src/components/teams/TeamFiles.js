@@ -14,7 +14,7 @@ export default class TeamFiles extends Component {
       </ul>
         </div>
         <div className="col-md-4 col-sm-12">
-          <button className="btn button">edit files</button>
+          <button className="btn button" disabled>edit files</button>
         </div>
       </div>
      

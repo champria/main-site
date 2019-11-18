@@ -4,7 +4,8 @@ class Info extends Component {
     state={
         game:"",
         region:"",
-        Availability:""
+        Availability:"",
+        bio:""
     }
 
     handleChange = (e) => {
@@ -49,6 +50,14 @@ class Info extends Component {
                        onChange={this.handleChange} 
                        name="availability"
                        />
+                   </div>
+                   <div className="form-group">
+                       <textarea 
+                       placeholder="enter bio here..." 
+                       name="bio" 
+                       value={this.state.bio} 
+                       className="form-control" 
+                       onChange={this.handleSubmit}></textarea>
                    </div>
                    <div>
                        <button className="btn button">Confirm</button>

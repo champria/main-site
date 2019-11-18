@@ -22,6 +22,9 @@ a:hover{
     .foreground .team-image {
         width: 50%;
     }
+    .team-search{
+        margin-top: 5%;
+    }
 }
 
 

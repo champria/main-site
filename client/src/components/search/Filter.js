@@ -73,7 +73,7 @@ export default class Filter extends Component {
           <div>
             <input
               className="form-control"
-              placeholder="search by player"
+              placeholder="Search by name"
               value={this.state.value}
               onChange={this.changeHandler}
             />

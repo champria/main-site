@@ -46,18 +46,18 @@ this.findRole(this.props.data.members)
         </div>
         </div>
         <div className="row team-section">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <h3>Bio:</h3>
             <hr className="my-4"/>
     <p>{this.props.data.bio}</p>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-8 col-sm-12">
             
         <TeamMembers members={this.props.data.members}/>
           </div>
         </div>
         <div className="row team-section">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <h3>Info:</h3>
             <hr className="my-4"/>
             <ul className="list-unstyled">
@@ -66,15 +66,15 @@ this.findRole(this.props.data.members)
     <li>Looking for members: {this.props.data.isLookingForMembers ? "Yes" : "No"}</li>
             </ul>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-8 col-sm-12">
             <TeamVideo videoUrl={this.props.data.videoUrl}/>
           </div>
         </div>
         <div className="row team-section">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <Calendar/>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-8 col-sm-12">
             <TeamFiles files={this.props.data.files}/>
           </div>
         </div>

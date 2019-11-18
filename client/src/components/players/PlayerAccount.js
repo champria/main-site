@@ -24,11 +24,11 @@ export default class PlayerAccount extends Component {
           <div className="col-md-6 col-sm-12">
             <div className="row h-100">
               <div className="col-6 my-auto">
-                <button className="btn button">Invite</button>
+                <button className="btn button" disabled>Invite</button>
               </div>
               <div className="col-6 my-auto">
                 <Link to="chat">
-                <button className="btn button">Message</button>
+                <button className="btn button" disabled>Message</button>
                 </Link>
                 
               </div>

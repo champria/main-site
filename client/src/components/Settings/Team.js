@@ -86,12 +86,18 @@ class Team extends Component {
                        name="organization"
                        />
                    </div>
-                  
-
+                   <div className="form-group">
+                       <textarea 
+                       placeholder="enter bio here..." 
+                       name="bio" 
+                       value={this.state.bio} 
+                       className="form-control" 
+                       onChange={this.handleSubmit}></textarea>
+                   </div>
                    </div>
                    <div className="col-md-6 col-sm-12">
                    <div className="form-group">
-                       <button className="btn button"><i className="fas fa-plus-circle"></i> invite player</button>
+                       <button className="btn button" disabled><i className="fas fa-plus-circle"></i> invite player</button>
                    </div>
                    <div className="jumbotron mx-auto">
                        <p>Players can be found here</p>
@@ -104,6 +110,7 @@ class Team extends Component {
                        onChange={this.handleChange} 
                        name="files"
                        type="file"
+                       disabled
                        />
                    </div>
                    <div className="jumbotron mx-auto">
