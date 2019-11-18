@@ -14,7 +14,7 @@ handleClick(){
 
   render(){
     return(
-      <div className="text-left">
+      <div className="text-left" id="filteredGames">
           <div className="row">
       <div className="col-12">
         {this.props.names.map(name => (

@@ -29,7 +29,7 @@ findRole(data){
 }
 
 componentDidMount(){ 
-// this.findRole(this.props.data.members) 
+this.findRole(this.props.data.members) 
 }
 
   render() {
@@ -41,6 +41,7 @@ componentDidMount(){
             <TeamBanner
             img={this.props.data.image}
             name={this.props.data.name}
+            captain={this.state.captain}
             />
         </div>
         </div>

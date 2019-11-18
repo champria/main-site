@@ -13,7 +13,7 @@ export default function TeamBanner(props){
             <div className="col-md-8">
               <h3 className="display-3">{props.name}</h3>
               <div className="text-left">
-              <p className="lead">Captain:</p>
+    <p className="lead">Captain: {props.captain}</p>
               </div>
     
             </div>
@@ -25,7 +25,10 @@ export default function TeamBanner(props){
               <button className="btn button">Scrim</button>
             </div>
             <div className="col-6 my-auto">
+              <Link>
               <button className="btn button">message</button>
+              </Link>
+              
             </div>
           </div>
         </div>

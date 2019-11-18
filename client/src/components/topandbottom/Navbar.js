@@ -4,13 +4,19 @@ import "./styles/Navbar.css";
 
 export default class Navbar extends Component {
   state = {
-    signedIn: true
+    signedIn: false
   };
+
+  toggle = () => {
+    this.setState({
+      signedIn: !this.state.signedIn
+    })
+  }
   render() {
     let { signedIn } = this.state;
 
     let signedInFalse = (
-      <Link to="/login">
+      <Link to="/register" onClick={this.toggle}>
         <li className="nav-link">Sign in/Register</li>
       </Link>
     );
@@ -19,21 +25,24 @@ export default class Navbar extends Component {
       <Fragment>
         <Link to="/player/:playerId/page">
           <li className="nav-link">
-            <i className="fas fa-user-circle"></i> Username
+            <i className="fas fa-user-circle d-none d-sm-block"></i>
+            <span className="d-block d-sm-none">Account</span>
           </li>
         </Link>
         <Link to="/player/:playerId/chat">
           <li className="nav-link">
           <i className="fas fa-comment-alt d-none d-sm-block"></i>
-          </li> <p className="d-block d-sm-none">Chat</p>
+          <span className="d-block d-sm-none">Chat</span>
+          </li> 
         </Link>
         <Link to="/player/:playerId/settings">
           <li className="nav-link">
             <i className="fas fa-cog d-none d-sm-block"></i> 
-          </li><p className="d-block d-sm-none">Settings</p>
+            <span className="d-block d-sm-none">Settings</span>
+          </li>
         </Link>
-        <Link to="/player/:playerId/settings">
-          <li className="nav-link">
+        <Link>
+          <li className="nav-link" onClick={this.toggle}>
           <i className="fas fa-ellipsis-v d-none d-sm-block"></i>
           </li>
         </Link>

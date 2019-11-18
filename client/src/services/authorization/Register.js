@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom'
-import './styles/TopAndBottom.css'
+import './styles/Authorization.css'
 
 export default class Register extends Component {
   state = {
