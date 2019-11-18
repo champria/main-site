@@ -10,6 +10,8 @@ export default class Navbar extends Component {
   toggle = () => {
     this.setState({
       signedIn: !this.state.signedIn
+    },()=>{
+      this.state.signedIn ? alert("successfully signed in!") : alert("successfully signed out")
     })
   }
   render() {
@@ -43,7 +45,7 @@ export default class Navbar extends Component {
         </Link>
         <Link>
           <li className="nav-link" onClick={this.toggle}>
-          <i className="fas fa-ellipsis-v d-none d-sm-block"></i>
+          Sign out
           </li>
         </Link>
       </Fragment>
