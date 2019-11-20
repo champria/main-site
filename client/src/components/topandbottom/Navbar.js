@@ -16,19 +16,8 @@ export default class Navbar extends Component {
   }
 
   componentDidMount(){
+   
     
-    setInterval(()=>{
-      this.setState({
-        name:this.props.name
-      }, ()=>{
-        if(this.state.name !== ""){
-          this.setState({
-            signedIn: true
-          })
-        }
-      },500)
-      }
-      )
   }
   render() {
     
