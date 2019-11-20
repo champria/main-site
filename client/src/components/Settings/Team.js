@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FileManagement from './FileManagement'
 import MemberForm from './MemberForm'
-
+import MemberCard from './MemberCard'
 class Team extends Component {
     state={
         teamName:"",
@@ -110,8 +110,9 @@ class Team extends Component {
                    </div>
                    {this.state.clicked && <MemberForm/>}
                    <div className="jumbotron mx-auto">
-                       
-                       <p>Players can be found here</p>
+                       <div className="row">
+                           <MemberCard/>
+                       </div>
                    </div>
                    <div className="form-group">
                        <input 
