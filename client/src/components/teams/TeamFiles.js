@@ -12,7 +12,6 @@ export default class TeamFiles extends Component {
     return <li ky={file.id}><a href={file.url} className="edit">{file.title}.doc</a></li>
     })}
       </ul>
-      <button className="btn button">edit files</button>
         </div>
         
           

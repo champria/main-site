@@ -52,7 +52,7 @@ export default class Login extends Component {
           </div>
           <br/>
           <div>
-            <button className="btn button">Log in</button>
+            <button className="btn button"><Link to="/player/:playerid/page">Log in</Link></button>
           </div>
           <div>
           <Link to="/register">

@@ -4,22 +4,31 @@ import "./styles/Navbar.css";
 
 export default class Navbar extends Component {
   state = {
-    signedIn: true,
+    signedIn: false,
     name:""
   };
 
-  toggle = () => {
+  signOut = () => {
     this.setState({
-      signedIn: !this.state.signedIn
-    },()=>{
-      this.state.signedIn 
-      ? alert("Successfully signed in") 
-      : alert("Successfully signed out")
+      name:"",
+      signedIn: false
     })
   }
 
   componentDidMount(){
-    this.props.name && this.toggle()
+    
+    setInterval(()=>{
+      this.setState({
+        name:this.props.name
+      }, ()=>{
+        if(this.state.name !== ""){
+          this.setState({
+            signedIn: true
+          })
+        }
+      },500)
+      }
+      )
   }
   render() {
     
@@ -59,7 +68,7 @@ export default class Navbar extends Component {
           </li>
         </Link>
         <Link to="/">
-          <li className="nav-link" onClick={this.toggle}>
+          <li className="nav-link" onClick={this.signOut}>
           Sign out
           </li>
         </Link>

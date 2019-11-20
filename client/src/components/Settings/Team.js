@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import FileManagement from './FileManagement'
+import MemberForm from './MemberForm'
 
 class Team extends Component {
     state={
@@ -11,12 +13,19 @@ class Team extends Component {
         bio:"",
         organization:"",
         isLookingForMembers:"",
-        game:""   
+        game:"", 
+        clicked:false  
     }
 
     handleChange = (e) => {
         this.setState({
             [e.target.name]: e.target.value
+        })
+    }
+
+    handleClick = () => {
+        this.setState({
+            clicked:!this.state.clicked
         })
     }
 
@@ -97,24 +106,25 @@ class Team extends Component {
                    </div>
                    <div className="col-md-6 col-sm-12">
                    <div className="form-group">
-                       <button className="btn button" disabled><i className="fas fa-plus-circle"></i> invite player</button>
+                       <button className="btn button" onClick={this.handleClick}><i className="fas fa-plus-circle"></i> invite player</button>
                    </div>
+                   {this.state.clicked && <MemberForm/>}
                    <div className="jumbotron mx-auto">
+                       
                        <p>Players can be found here</p>
                    </div>
                    <div className="form-group">
                        <input 
                        className="form-control" 
-                       placeholder="upload files" 
+                       placeholder="upload file" 
                        value={this.state.files} 
                        onChange={this.handleChange} 
                        name="files"
                        type="file"
-                       disabled
                        />
                    </div>
                    <div className="jumbotron mx-auto">
-                       <p>Team files can be found here</p>
+                       <FileManagement />
                    </div>
                    <div>
                        <button className="btn button">Confirm</button>

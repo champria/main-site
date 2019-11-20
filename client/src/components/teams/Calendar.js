@@ -12,7 +12,6 @@ export default class Calendar extends Component {
           return (
             <li key={event.id}>
         <p>{event.title} <span>{event.date} - {event.time}</span></p>
-        <a className="edit" href="#">Edit event</a>
             </li>
           )
         })}
