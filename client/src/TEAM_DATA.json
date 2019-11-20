@@ -44,6 +44,20 @@
         "id": "1",
         "title": "Last loss"
       }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "2:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "11/30/2019",
+        "time": "10:00pm"
+      }
     ]
   },
   {
@@ -110,6 +124,20 @@
         "url": "some url document",
         "id": "1",
         "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
       }
     ]
   }

@@ -11,8 +11,8 @@ export default class MainSplash extends Component {
         <div className="container">
           <div className="jumbotron" id="foreground">
             <Fade bottom>
-              <h1 className="display-2 text-left" id="header">
-                Bring us your Champions!
+              <h1 className="display-1 text-center" id="header">
+              Where Esports<br/>Champions Rise
               </h1>
             </Fade>
 

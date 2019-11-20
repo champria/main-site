@@ -4,23 +4,38 @@ import "./styles/Navbar.css";
 
 export default class Navbar extends Component {
   state = {
-    signedIn: false
+    signedIn: true,
+    name:""
   };
 
   toggle = () => {
     this.setState({
       signedIn: !this.state.signedIn
     },()=>{
-      this.state.signedIn ? alert("successfully signed in!") : alert("successfully signed out")
+      this.state.signedIn 
+      ? alert("Successfully signed in") 
+      : alert("Successfully signed out")
     })
   }
+
+  componentDidMount(){
+    this.props.name && this.toggle()
+  }
   render() {
+    
+
     let { signedIn } = this.state;
 
     let signedInFalse = (
-      <Link to="/register" onClick={this.toggle}>
-        <li className="nav-link">Sign in/Register</li>
+      <Fragment>
+<Link to="/login">
+        <li className="nav-link">Sign in</li>
       </Link>
+      <Link to="/register">
+        <li className="nav-link">Register</li>
+      </Link>
+      </Fragment>
+      
     );
 
     let Account = (
@@ -28,7 +43,7 @@ export default class Navbar extends Component {
         <Link to="/player/:playerId/page">
           <li className="nav-link">
             <i className="fas fa-user-circle d-none d-sm-block"></i>
-            <span className="d-block d-sm-none">Account</span>
+    <span className="d-block d-sm-none">{this.props.name}</span>
           </li>
         </Link>
         <Link to="/player/:playerId/chat">
@@ -43,7 +58,7 @@ export default class Navbar extends Component {
             <span className="d-block d-sm-none">Settings</span>
           </li>
         </Link>
-        <Link>
+        <Link to="/">
           <li className="nav-link" onClick={this.toggle}>
           Sign out
           </li>
@@ -73,12 +88,12 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse text-left" id="navbarSupportedContent">
-          <ul className="navbar-nav ">
+          <ul className="navbar-nav spacing">
           <Link to="/team/search">
-              <li className="nav-link">Browse Teams</li>
+              <li className="nav-link"><i className="fas fa-users"></i> Browse Teams</li>
             </Link>
             <Link to="/player/search">
-              <li className="nav-link">Browse Players</li>
+              <li className="nav-link"> <i className="fas fa-user"></i> Browse Players</li>
             </Link>
           </ul>
           <ul className="navbar-nav ml-auto">

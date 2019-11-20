@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 700px;
   z-index: -1;
   filter: blur(2px);
 }
@@ -16,9 +16,9 @@
 
 #foreground {
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -40%);
   z-index: 2;
   width: 90%;
   margin: auto;
@@ -31,9 +31,15 @@
 
 @media only screen and (max-width: 500px) {
   #header {
-    font-size: 3em;
+    font-size: 2em;
   }
   #foreground p {
     font-size: 0.9em;
+  }
+  
+  #foreground{
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 }

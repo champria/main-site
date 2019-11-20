@@ -4,29 +4,29 @@ import {Link} from "react-router-dom"
 export default function TeamBanner(props){
     return (
       <Fragment>
-      <div className="row team-info h-100">
+      <div className="row">
         <div className="col-md-8">
-          <div className="row text-center">
-            <div className="col-md-4">
+          <div className="row h-100">
+            <div className="col-md-3">
               <img src={props.img} alt={props.name}/>
             </div>
-            <div className="col-md-8">
-              <h3 className="display-3">{props.name}</h3>
-              <div className="text-left">
-    <p className="lead">Captain: {props.captain}</p>
+            <div className="col-md-9 text">
+              <h3 className="display-4 my-auto">{props.name}</h3>
+              <div className="">
+    <p className="lead my-auto">Captain: {props.captain}</p>
               </div>
     
             </div>
           </div>
         </div>
         <div className="col-md-4 col-sm-12">
-          <div className="row h-100 text-center">
+          <div className="row h-100 text-left">
             <div className="col-6 my-auto">
-              <button className="btn button" disabled>Scrim</button>
+              <button className="btn button">Scrim</button>
             </div>
             <div className="col-6 my-auto">
               <Link>
-              <button className="btn button" disabled>message</button>
+              <button className="btn button">message</button>
               </Link>
               
             </div>

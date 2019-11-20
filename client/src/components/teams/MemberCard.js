@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function MemberCard(props) {
-  
   return (
     <div className="col-md-4 col-sm-12" key={props.data.id}>
       <div className="card text-left">
@@ -19,9 +18,7 @@ export default function MemberCard(props) {
           <div className="col">
   <p>Role: {props.data.role}</p>
           </div>
-          
-        </div>
-       
+        </div>       
       </div>
     </div>
   );

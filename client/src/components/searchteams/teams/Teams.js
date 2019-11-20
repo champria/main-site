@@ -24,6 +24,7 @@ export default class Teams extends Component {
                 passedTeamObject={this.props.passedTeamObject}
                 bio={data.bio}
                 videoUrl={data.videoUrl}
+                schedule={data.schedule}
               />
             );
           })}

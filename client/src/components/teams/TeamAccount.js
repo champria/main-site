@@ -37,7 +37,7 @@ this.findRole(this.props.data.members)
       <div className="container text-left" id="teamPage">
         <div className="team-banner" style={{backgroundImage: `url(${this.props.data.banner})` }}></div>
         <div className="team-banner-foreground">
-        <div className="row">
+        <div className="row team-info h-100 text-left">
             <TeamBanner
             img={this.props.data.image}
             name={this.props.data.name}
@@ -72,7 +72,7 @@ this.findRole(this.props.data.members)
         </div>
         <div className="row team-section">
           <div className="col-md-4 col-sm-12">
-            <Calendar/>
+            <Calendar schedule={this.props.data.schedule}/>
           </div>
           <div className="col-md-8 col-sm-12">
             <TeamFiles files={this.props.data.files}/>

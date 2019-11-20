@@ -7,6 +7,10 @@
   color: #eee;
 }
 
+.spacing{
+  padding-left: 2%;
+}
+
 nav i {
   font-size: 1.5em;
 }

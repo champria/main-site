@@ -9,13 +9,13 @@ export default class TeamFiles extends Component {
         <div className="col-md-8 col-sm-12">
         <ul className="list-unstyled">
     {this.props.files.map(file => {
-    return <li ky={file.id}><a href={file.url}>{file.title}.doc</a></li>
+    return <li ky={file.id}><a href={file.url} className="edit">{file.title}.doc</a></li>
     })}
       </ul>
+      <button className="btn button">edit files</button>
         </div>
-        <div className="col-md-4 col-sm-12">
-          <button className="btn button" disabled>edit files</button>
-        </div>
+        
+          
       </div>
      
     </div>;

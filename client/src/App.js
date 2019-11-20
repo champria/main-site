@@ -46,12 +46,15 @@ constructor(props){
       banner:"",
       url:"",
       files:[],
-      videoUrl:""
-    }
+      videoUrl:"",
+      schedule:[]
+    },
+    navName:""
                                  
   }
   this.passedObject = this.passedObject.bind(this)
   this.passedTeamObject = this.passedTeamObject.bind(this)
+  this.isLoggedIn = this.isLoggedIn.bind(this)
 }
 
 
@@ -88,20 +91,27 @@ constructor(props){
       banner:data.banner,
       url:data.url,
       files:data.files,
-      videoUrl:data.videoUrl
+      videoUrl:data.videoUrl,
+      schedule:data.schedule
       }
     })
   }
+
+isLoggedIn = (data) => {
+  this.setState({
+    navName:data
+  })
+}
 
   render(){
     return (
       <Router>
         <div className="App">
-          <Navbar />
+          <Navbar name={this.state.navName}/>
           <Switch>
             <Route exact path="/" component={MainSplash} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/register" component={Register} />
+            <Route exact path="/login" render={()=> <Login isLoggedIn={this.isLoggedIn}/>} />
+            <Route exact path="/register" render={()=> <Register isLoggedIn={this.isLoggedIn}/>} />
             <Route exact path="/player/search" render={()=> <SearchDashboard passedObject={this.passedObject}/>} />
             <Route exact path="/team/search" render={()=> <TeamDashboard passedTeamObject={this.passedTeamObject}/>} />
             <Route exact path="/player/:playerId/page" render={()=> <PlayerAccount data={this.state.player}/>} />

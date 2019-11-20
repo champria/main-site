@@ -4,7 +4,7 @@ import './styles/Authorization.css'
 
 export default class Login extends Component {
   state = {
-    email: "",
+    username: "",
     password: ""
   };
 
@@ -14,9 +14,9 @@ export default class Login extends Component {
     });
   };
 
-  onSubmit = e => {
-    e.preventDefault();
-    console.log(this.state);
+  onSubmit = (e) => {
+    e.preventDefault()
+    this.props.isLoggedIn(this.state.username)
   };
 
   render() {
@@ -29,10 +29,10 @@ export default class Login extends Component {
           <div className="form-group">
           <div>
             <input
-              placeholder="email"
-              type="email"
-              name="email"
-              value={this.state.email}
+              placeholder="username"
+              type="text"
+              name="username"
+              value={this.state.username}
               onChange={e => this.changeHandler(e)}
               required
               className="form-control"

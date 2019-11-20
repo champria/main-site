@@ -3,7 +3,7 @@
 }
 
 #teamPage img{
-  width: 70%;
+  width: 100%;
 }
 
 #teamPage .card {
@@ -20,6 +20,10 @@ background-color: #53a09c;
   filter: blur(3px);
 }
 
+.team-banner h3.display-4 {
+  font-weight: bold;
+}
+
 .team-banner-foreground{
   position: absolute;
   top: 40%;
@@ -27,6 +31,7 @@ background-color: #53a09c;
   transform: translate(-50%, -60%);
   width: 75%;
 }
+
 
 .team-section {
   margin:3%;
@@ -41,6 +46,20 @@ background-color: #53a09c;
 
 #teamPage img.member-image{
   width: 100%;
+}
+
+.schedule span{
+  display: block;
+}
+
+.schedule .edit {
+  color: #53a09c;
+  font-size: .9em;
+  transition: all ease 500ms;
+}
+
+.edit:hover{
+  color: teal;
 }
 
 @media only screen and (max-width: 500px){
