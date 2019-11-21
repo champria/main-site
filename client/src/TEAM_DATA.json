@@ -140,5 +140,491 @@
         "time": "1:00pm"
       }
     ]
+  },
+  {
+    "id": "2",
+    "name": "Crisis on Endor",
+    "members": [
+      {
+        "id": 0,
+        "username": "Normi_killer",
+        "img": "https://cdn3.iconfinder.com/data/icons/star-wars-color/198/ewok-512.png",
+        "game": "League of Legends",
+        "team": "Crisis on Endor",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "Generic Bipod",
+        "img": "https://www.freeiconspng.com/uploads/league-of-legends-icon-10.png",
+        "game": "League of Legends",
+        "team": "Crisis on Endor",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "red_skool",
+        "img": "https://icon-library.net/images/league-of-legends-icon-transparent/league-of-legends-icon-transparent-0.jpg",
+        "game": "League of Legends",
+        "team": "Crisis on Endor",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "mouseRat",
+        "img": "https://cdn2.iconfinder.com/data/icons/mammals-ii/300/10-512.png",
+        "game": "League of Legends",
+        "team": "Crisis on Endor",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "",
+    "game": "League of Legends",
+    "region": "CA",
+    "isLookingForMembers": true,
+    "image": "https://cdn6.aptoide.com/imgs/4/3/d/43db90975051ca693814669d6a372d0e_icon.png?w=256",
+    "banner": "https://ryanmartinproductions.com/image/237932-full_youtube-banner-wallpaper-fresh-youtube-banner-wallpaper-59-image.jpg",
+    "url": ":teamId",
+    "videoUrl": "VpSBsy0Q7ZQ",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Cool Runnings 3",
+    "members": [
+      {
+        "id": 0,
+        "username": "pennyKenny",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Coll Runnings 3",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "Date_mike",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Coll Runnings 3",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "CoolMac",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Coll Runnings 3",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "tah_Duh",
+        "img": "https://static.thenounproject.com/png/924865-200.png",
+        "game": "CS GO",
+        "team": "Coll Runnings 3",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "myOrg",
+    "game": "CS GO",
+    "region": "CA",
+    "isLookingForMembers": false,
+    "image": "https://www.freeiconspng.com/uploads/cs-go-csgo-inventory-icon-27.png",
+    "banner": "https://www.ytgraphics.com/static/2e459be418fde5d318ed239e7d7bed32/5840c/csgo-minecraft.jpg",
+    "url": ":teamId",
+    "videoUrl": "ADFEEuAymDo",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mass Reflect",
+    "members": [
+      {
+        "id": 0,
+        "username": "GermanSheep",
+        "img": "http://files.softicons.com/download/game-icons/mass-effect-3-icons-by-exhumed/png/512x512/Mass%20Effect%203_1.png",
+        "game": "Rainbow Six: Seige",
+        "team": "Mass Reflect",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "bartman",
+        "img": "https://vignette.wikia.nocookie.net/simpsons/images/1/12/Bartman_Tapped_Out.png/revision/latest?cb=20151122175055",
+        "game": "Rainbow Six: Seige",
+        "team": "Mass Reflect",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "Fletcher",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "Rainbow Six: Seige",
+        "team": "Mass Reflect",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "Rheno",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "Rainbow Six: Seige",
+        "team": "Mass Reflect",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "Cool Organizatio",
+    "game": "Rainbow Six: Seige",
+    "region": "CA",
+    "isLookingForMembers": false,
+    "image": "https://masseffectandromeda.wiki.fextralife.com/file/Mass-Effect-Andromeda/engineerprofile2.png",
+    "banner": "https://i.ytimg.com/vi/Gh7Cs-8Azcs/maxresdefault.jpg",
+    "url": ":teamId",
+    "videoUrl": "ADFEEuAymDo",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Remnant Bears",
+    "members": [
+      {
+        "id": 0,
+        "username": "High_Scope",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "Revived Medic",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "Too good_runner",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "Ruin",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "CS GO",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "College",
+    "game": "CS GO",
+    "region": "US",
+    "isLookingForMembers": true,
+    "image": "https://i1.wp.com/sleepyheadcentral.com/wp-content/uploads/2018/12/teddy-bear-icon.png?fit=768%2C768&ssl=1",
+    "banner": "https://nationalgriefawarenessday.com/wp-content/uploads/2018/01/youtube-gaming-banner-ozhneg.jpg",
+    "url": ":teamId",
+    "videoUrl": "ADFEEuAymDo",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Cultivating Gamers",
+    "members": [
+      {
+        "id": 0,
+        "username": "High_Scope",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "Revived Medic",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "Too good_runner",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "Ruin",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "",
+    "game": "Rainbow Six: Seige",
+    "region": "US",
+    "isLookingForMembers": false,
+    "image": "https://cultivatecoders.com/wp-content/themes/cultivating/assets/img/logo-shadow.png",
+    "banner": "https://image.shutterstock.com/z/stock-vector-programming-banner-coding-best-programming-languages-flat-illustration-concept-1033896166.jpg",
+    "url": ":teamId",
+    "videoUrl": "ADFEEuAymDo",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Regal Memes",
+    "members": [
+      {
+        "id": 0,
+        "username": "High_Scope",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "captain"
+      },
+      {
+        "id": 1,
+        "username": "Revived Medic",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 3,
+        "username": "Too good_runner",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      },
+      {
+        "id": 4,
+        "username": "Ruin",
+        "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+        "game": "League of Legends",
+        "team": "Unicorns are real",
+        "region": "US",
+        "url": ":playerId",
+        "role": "member"
+      }
+    ],
+    "bio": "lorem ispum",
+    "organization": "relly organized",
+    "game": "League of Legends",
+    "region": "CA",
+    "isLookingForMembers": false,
+    "image": "https://clipartsworld.com/images/league-of-legends-icon-clipart-38.png",
+    "banner": "https://i.pinimg.com/originals/fc/75/27/fc7527da2507f1c860f99a3e7ac7cf78.png",
+    "url": ":teamId",
+    "videoUrl": "ADFEEuAymDo",
+    "files": [
+      {
+        "url": "some url document",
+        "id": "0",
+        "title": "Last win"
+      },
+      {
+        "url": "some url document",
+        "id": "1",
+        "title": "Last loss"
+      }
+    ],
+    "schedule":[
+      {
+        "id":"0",
+        "title": "Training",
+        "date": "12/12/2019",
+        "time": "5:00pm"
+      },
+      {
+        "id":"0",
+        "title": "Scrim",
+        "date": "12/27/2019",
+        "time": "1:00pm"
+      }
+    ]
   }
 ]

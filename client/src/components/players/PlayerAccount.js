@@ -21,14 +21,14 @@ export default class PlayerAccount extends Component {
           img={this.props.data.img}
           tagline={this.props.data.tagline}
           />
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-3 col-sm-12">
             <div className="row h-100">
               <div className="col-6 my-auto">
-                <button className="btn button" disabled>Invite</button>
+                <button className="btn button" >Invite</button>
               </div>
               <div className="col-6 my-auto">
                 <Link to="chat">
-                <button className="btn button" disabled>Message</button>
+                <button className="btn button" >Message</button>
                 </Link>
                 
               </div>

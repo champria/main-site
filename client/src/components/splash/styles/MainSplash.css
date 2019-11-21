@@ -6,13 +6,12 @@
   height: 700px;
   z-index: -1;
   filter: blur(2px);
+  opacity: .1;
 }
 
-/* #background {
-  opacity: 0.2;
-  filter: blur(4px);
-  z-index:-1;
-} */
+#big-button{
+  padding:2% 5%;
+}
 
 #foreground {
   position: absolute;
@@ -41,5 +40,8 @@
     top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  }
+  .splash-buttons button{
+  margin:5%
   }
 }

@@ -11,7 +11,7 @@ export default function TeamBanner(props){
               <img src={props.img} alt={props.name}/>
             </div>
             <div className="col-md-9 text">
-              <h3 className="display-4 my-auto">{props.name}</h3>
+              <h3 className="my-auto">{props.name}</h3>
               <div className="">
     <p className="lead my-auto">Captain: {props.captain}</p>
               </div>

@@ -15,6 +15,12 @@
   padding: 2%;
 }
 
+.player-banner h3 {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: .1em;
+  font-size: 3em;
+}
+
 .player-banner {
   position: absolute;
   top: 35%;
@@ -45,8 +51,8 @@ iframe {
   background-size: cover;
   height: 40vh;
   margin: 3%;
-  opacity: 0.5;
-  filter: blur(3px);
+  opacity: .4;
+  filter: blur(5px);
 }
 
 .player-image{

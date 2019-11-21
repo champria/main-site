@@ -4,7 +4,7 @@ import "./styles/Navbar.css";
 
 export default class Navbar extends Component {
   state = {
-    signedIn: false,
+    signedIn: true,
     name:""
   };
 

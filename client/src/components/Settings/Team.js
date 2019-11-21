@@ -127,6 +127,11 @@ class Team extends Component {
                    <div className="jumbotron mx-auto">
                        <FileManagement />
                    </div>
+
+            <div>
+                
+            </div>
+
                    <div>
                        <button className="btn button">Confirm</button>
                    </div>

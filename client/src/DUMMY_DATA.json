@@ -2,7 +2,7 @@
   {
     "id": 1,
     "username": "ahola12",
-    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "img": "https://freepngimg.com/download/counter_strike/34981-1-counter-strike-logo-free-download.png",
     "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
     "game": "CS GO",
     "team": "Terror Dorms",
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "username": "foresight22",
-    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "img": "https://s3-eu-west-1.amazonaws.com/stfr-assets/Pins/Series+2/valeria.png",
     "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
     "game": "CS GO",
     "team": "",
@@ -62,8 +62,168 @@
   {
     "id": 4,
     "username": "High_Scope",
-    "img": "https://img.pngio.com/controller-game-controller-video-game-icon-gamer-icon-png-512_512.png",
+    "img": "https://tko-hacks.com/wp-content/uploads/2017/02/tko-hack-icon.png",
     "banner": "https://storage.needpix.com/rsynced_images/game-over-2720584_1280.png",
+    "game": "Rainbow Six: Siege",
+    "team": "Unicorns are real",
+    "region": "US",
+    "url": ":playerId",
+    "tagline":"How high?",
+    "availability":"mornings",
+    "videoUrl": "s4p50QVzQKg",
+    "stats":{
+      "role": "support",
+      "kd": "1.0",
+      "primary": "any scoped rifle",
+      "hoursPlayed": "175"
+    },
+    "about":"Game in the am, work in the pm."
+  },
+  {
+    "id": 5,
+    "username": "nicoBell",
+    "img": "https://cdn0.iconfinder.com/data/icons/roundettes-for-os-x-vol-v/512/Grand_Theft_Auto_San_Andreas-512.png",
+    "banner": "https://d2ct9xspam8wud.cloudfront.net/blog/2019/05/21143749/TwitchWarrior.jpg",
+    "game": "League of Legends",
+    "team": "Terror Dorms",
+    "region": "US",
+    "url": ":playerId",
+    "tagline":"ready up!",
+    "availability":"evenings",
+    "videoUrl": "QbqaALkLF1U",
+    "stats":{
+      "role": "DPS",
+      "kd": "1.1",
+      "primary": "mp5",
+      "hoursPlayed": "150"
+    },
+    "about":"Been playing for 3 years. I play in my spare time while in college. Go Terror Dorms!"
+  },
+  {
+    "id": 6,
+    "username": "Righteous Duck",
+    "img": "http://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/1024/rubber-duck-icon.png",
+    "banner": "https://i.pinimg.com/originals/5c/f1/b5/5cf1b5c4c0a8cc74e2b84cb3d3d0819a.jpg",
+    "game": "Rainbow Six: Seige",
+    "team": "",
+    "region": "US",
+    "url": ":playerId",
+    "tagline":"future proof",
+    "availability":"afternoons, weekends",
+    "videoUrl": "JmoH-7BaE1s",
+    "stats":{
+      "role": "support",
+      "kd": ".95",
+      "primary": "lmg",
+      "hoursPlayed": "111"
+    },
+    "about":"Looking for a team, hit me up!"
+  },
+  {
+    "id": 7,
+    "username": "Lizzard_mcguire",
+    "img": "https://pbs.twimg.com/profile_images/1666731582/cliplizzie10_400x400.gif",
+    "banner": "https://f4.bcbits.com/img/0010513379_10.jpg",
+    "game": "",
+    "team": "",
+    "region": "",
+    "url": ":playerId",
+    "tagline":"",
+    "availability":"evenings",
+    "videoUrl": "",
+    "stats":{
+      "role": "",
+      "kd": "",
+      "primary": "",
+      "hoursPlayed": ""
+    },
+    "about":"Howdy! I'm new..."
+  },
+  {
+    "id": 8,
+    "username": "kid_pebble",
+    "img": "https://icon-library.net/images/rainbow-6-siege-icon/rainbow-6-siege-icon-20.jpg",
+    "banner": "https://cdn.gamer-network.net/2018/usgamer/the-banner-saga-3_hed.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/75/the-banner-saga-3-review.jpg",
+    "game": "Rainbow Six: Siege",
+    "team": "Unicorns are real",
+    "region": "CA",
+    "url": ":playerId",
+    "tagline":"How high?",
+    "availability":"mornings",
+    "videoUrl": "s4p50QVzQKg",
+    "stats":{
+      "role": "support",
+      "kd": "1.0",
+      "primary": "any scoped rifle",
+      "hoursPlayed": "175"
+    },
+    "about":"Game in the am, work in the pm."
+  },
+  {
+    "id": 9,
+    "username": "unmarked Cowboy",
+    "img": "https://i.pinimg.com/originals/6d/f3/b1/6df3b14a66ce63f5e00c4ba7519304c0.png",
+    "banner": "https://static1.squarespace.com/static/59c1e02ef7e0abf0fba2aa79/59c2a3d646c3c4498df97060/59c40112dba43298a1ed7c70/1506018503692/?format=2500w",
+    "game": "CS GO",
+    "team": "Terror Dorms",
+    "region": "US",
+    "url": ":playerId",
+    "tagline":"ready up!",
+    "availability":"evenings",
+    "videoUrl": "QbqaALkLF1U",
+    "stats":{
+      "role": "DPS",
+      "kd": "1.1",
+      "primary": "mp5",
+      "hoursPlayed": "150"
+    },
+    "about":"Been playing for 3 years. I play in my spare time while in college. Go Terror Dorms!"
+  },
+  {
+    "id": 10,
+    "username": "RIP tommy",
+    "img": "https://carlisletheacarlisletheatre.org/images/skull-icon-5.png",
+    "banner": "https://wallpaperaccess.com/full/962880.jpg",
+    "game": "CS GO",
+    "team": "",
+    "region": "CA",
+    "url": ":playerId",
+    "tagline":"future proof",
+    "availability":"afternoons, weekends",
+    "videoUrl": "JmoH-7BaE1s",
+    "stats":{
+      "role": "support",
+      "kd": ".95",
+      "primary": "lmg",
+      "hoursPlayed": "111"
+    },
+    "about":"Looking for a team, hit me up!"
+  },
+  {
+    "id": 11,
+    "username": "no_scope201",
+    "img": "https://vignette.wikia.nocookie.net/cswikia/images/2/25/Csgo_Terror_icon_alt.png/revision/latest/scale-to-width-down/185?cb=20151222191720",
+    "banner": "http://www.jemome.com/cdn/2011/01/mlg-major-league-gaming_1869802.jpg",
+    "game": "",
+    "team": "",
+    "region": "",
+    "url": ":playerId",
+    "tagline":"",
+    "availability":"evenings",
+    "videoUrl": "",
+    "stats":{
+      "role": "",
+      "kd": "",
+      "primary": "",
+      "hoursPlayed": ""
+    },
+    "about":"Howdy! I'm new..."
+  },
+  {
+    "id": 12,
+    "username": "perfect_cat",
+    "img": "https://static.thenounproject.com/png/31505-200.png",
+    "banner": "https://ryanmartinproductions.com/image/237860-full_youtube-banner-wallpaper-90-images.jpg",
     "game": "Rainbow Six: Siege",
     "team": "Unicorns are real",
     "region": "US",

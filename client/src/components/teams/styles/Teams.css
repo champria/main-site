@@ -7,6 +7,7 @@
 }
 
 #teamPage .card {
+  margin: 5% 0px;
 background-color: #53a09c;
 
 }
@@ -16,12 +17,15 @@ background-color: #53a09c;
   background-size: cover;
   height: 40vh;
   margin: 3%;
-  opacity: .5;
-  filter: blur(3px);
+  opacity: .4;
+  filter: blur(5px);
 }
 
-.team-banner h3.display-4 {
-  font-weight: bold;
+.team-banner-foreground h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+
 }
 
 .team-banner-foreground{

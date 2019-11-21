@@ -8,7 +8,7 @@ export default class MainSplash extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container" id="splash">
           <div className="jumbotron" id="foreground">
             <Fade bottom>
               <h1 className="display-1 text-center" id="header">
@@ -19,7 +19,7 @@ export default class MainSplash extends Component {
             <br />
             <hr class="my-4" />
             <div className="row">
-              <div className="col-md-8 col-sm-12 text-left">
+              <div className="col-sm-12 text-center">
                 <Fade bottom>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -36,23 +36,24 @@ export default class MainSplash extends Component {
                   </p>
                 </Fade>
               </div>
-              <div className="col-md-4 col-sm-12 my-auto">
-                <Link to="/register">
-                  <Fade bottom>
-                    <button className="btn button">Join now</button>
-                  </Fade>
-                </Link>
-              </div>
+             
             </div>
             <br />
             <Fade bottom>
-              <div className="row">
-                <div className="col-6">
+              <div className="row splash-buttons">
+                <div className="col-md-4 sm-12">
                   <Link to="/team/search">
                     <button className="btn  button">Browse Teams</button>
                   </Link>
                 </div>
-                <div className="col-6">
+                <div className="col-md-4 sm-12">
+                <Link to="/register">
+                  <Fade bottom>
+                    <button className="btn button" id="big-button">Join now</button>
+                  </Fade>
+                </Link>
+                </div>
+                <div className="col-md-4 sm-12">
                   <Link to="/player/search">
                     <button className="btn  button">Browse Players</button>
                   </Link>

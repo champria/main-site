@@ -1,7 +1,7 @@
 .nav-text {
+font-family: 'Oldenburg', cursive;
   color: #eee;
   letter-spacing: 0.1em;
-  font-weight: 300;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #eee;
